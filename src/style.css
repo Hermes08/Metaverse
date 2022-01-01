@@ -7,14 +7,38 @@
 html,
 body
 {
-    height: 100vh;
+    height: 300vh;
     font-family: 'Poppins';
+    background: rgba(11, 11, 11, 0.884);
 }
 
-.webgl
-{
-    position: fixed;
+.webgl{
+    position: absolute;
     top: 0;
     left: 0;
     outline: none;
+}
+
+.container {
+    height: 100vh;
+    /* display: grid; */
+    place-items: center;
+    position:absolute; left:80px; top:150px
+
+}
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgb(252, 247, 247)
+}
+
+p{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgb(252, 247, 247);
+    text-align: left;
+    line-height: 1.4;
+    
+
 }
